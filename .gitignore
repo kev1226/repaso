@@ -1,0 +1,12 @@
+# Ignorar carpetas y archivos comunes
+*.env
+*.log
+.DS_Store
+
+# Ignorar sistemas específicos
+.idea/
+.vscode/
+
+# No subir dependencias globales ni caché
+node_modules/
+npm-debug.log
